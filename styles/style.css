@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color:cornsilk;
+    background-image: url('../banner2.png');
+    background-repeat: no-repeat;
+    
+}
+.BanHeading{
+    padding: 210px 20px 10px 650px ;
+    text-align: right;
+    color: black;
+    font-size: 65px;
+    font-weight: 700;
+    width:600px;
+   
+}
+.BanDescription{
+    padding: 0px 20px 10px 850px ;
+    font-size: 20px;
+    color: #0c0b0b;
+    text-align: right;
+    width: 400px;
+}
+.BanBtn{
+    margin: 10px 20px 300px 1120px   ;
+    font-size:large;
+    color: white;
+    background-color: darkgreen;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: 5px 5px 8px 5px #353535;
+}
+
+/* Header part done and body part starts from here */
