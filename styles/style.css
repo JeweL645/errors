@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+ 
 }
 .header{
     background-color:cornsilk;
@@ -25,7 +26,7 @@
     width: 400px;
 }
 .BanBtn{
-    margin: 10px 20px 300px 1120px   ;
+    margin: 10px 20px 150px 1120px   ;
     font-size:large;
     color: white;
     background-color: darkgreen;
@@ -36,3 +37,66 @@
 }
 
 /* Header part done and body part starts from here */
+
+.body-content{
+    
+    background-color:white;
+    display: flex;
+
+}
+.bodyTittle{
+    padding: 250px 30px 5px 50px ;
+    text-align: left;
+    font-size: 50px;
+    font-weight: 700;
+    width: 288px;
+}
+.bodyDescription{
+    
+    font-size: 20px;
+    text-align: left;
+    padding: 15px 30px 10px 50px ;
+    width: 480px;
+    color: black;
+    font-weight: 400;
+    
+}
+.singleList{
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0px 30px 100px 70px ;
+
+}
+.li{
+    padding: 5px;
+}
+.child1{
+
+    padding: 0 0 0 130px;
+
+}
+/* section1 ends here and section2 starts from here */
+
+.planHeading{
+    padding: 85px 0 0 0;
+    text-align: center;
+    font-size: 45px;
+}
+
+.planSet{
+    display: flex;
+
+}
+.planItem1{
+    padding: 50px 0px 0px 350px;
+}
+.planItem2{
+    padding: 50px 10px 0px 80px;
+}
+.planItem3{
+    padding: 50px 0px 0px 80px;
+}
+.planItem4{
+    padding: 50px 0px 0px 80px;
+}
