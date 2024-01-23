@@ -89,14 +89,45 @@
 
 }
 .planItem1{
-    padding: 50px 0px 0px 350px;
+    padding: 50px 0px 100px 350px;
 }
 .planItem2{
-    padding: 50px 10px 0px 80px;
+    padding: 50px 10px 100px 80px;
 }
 .planItem3{
-    padding: 50px 0px 0px 80px;
+    padding: 50px 0px 100px 80px;
 }
 .planItem4{
-    padding: 50px 0px 0px 80px;
+    padding: 50px 0px 100px 80px;
+}
+
+.callNow{
+     
+    background-image: url('../watch.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    
+
+}
+.des{
+    color: rgb(8, 8, 8);
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    width: 400px;
+    padding: 90px 0px 0 250px ;
+
+
+}
+.call{
+    font-size: large;
+    border: 0;
+    border-radius: 10px;
+    color: rgb(3, 3, 3);
+    background-color: darkgreen;
+    padding: 10px 20px;
+    margin: 10px 0px 70px 248px ;
+    
+
+
 }
