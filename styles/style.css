@@ -1,33 +1,37 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
- 
+
 }
-.header{
-    background-color:cornsilk;
+
+.header {
+    background-color: cornsilk;
     background-image: url('../banner2.png');
     background-repeat: no-repeat;
-    
+
 }
-.BanHeading{
-    padding: 210px 20px 10px 650px ;
+
+.BanHeading {
+    padding: 210px 20px 10px 650px;
     text-align: right;
     color: black;
     font-size: 65px;
     font-weight: 700;
-    width:600px;
-   
+    width: 600px;
+
 }
-.BanDescription{
-    padding: 0px 20px 10px 850px ;
+
+.BanDescription {
+    padding: 0px 20px 10px 850px;
     font-size: 20px;
     color: #0c0b0b;
     text-align: right;
     width: 400px;
 }
-.BanBtn{
-    margin: 10px 20px 150px 1120px   ;
-    font-size:large;
+
+.BanBtn {
+    margin: 10px 20px 150px 1120px;
+    font-size: large;
     color: white;
     background-color: darkgreen;
     border: 0;
@@ -38,96 +42,167 @@
 
 /* Header part done and body part starts from here */
 
-.body-content{
-    
-    background-color:white;
+.body-content {
+
+    background-color: white;
     display: flex;
 
 }
-.bodyTittle{
-    padding: 250px 30px 5px 50px ;
+
+.bodyTittle {
+    padding: 250px 30px 5px 50px;
     text-align: left;
     font-size: 50px;
     font-weight: 700;
     width: 288px;
 }
-.bodyDescription{
-    
+
+.bodyDescription {
+
     font-size: 20px;
     text-align: left;
-    padding: 15px 30px 10px 50px ;
+    padding: 15px 30px 10px 50px;
     width: 480px;
     color: black;
     font-weight: 400;
-    
+
 }
-.singleList{
+
+.singleList {
     color: black;
     font-weight: 400;
     font-size: 20px;
-    padding: 0px 30px 100px 70px ;
+    padding: 0px 30px 100px 70px;
 
 }
-.li{
+
+.li {
     padding: 5px;
 }
-.child1{
+
+.child1 {
 
     padding: 0 0 0 130px;
+    height: fit-content;
 
 }
+
 /* section1 ends here and section2 starts from here */
 
-.planHeading{
+.planHeading {
     padding: 85px 0 0 0;
     text-align: center;
     font-size: 45px;
 }
 
-.planSet{
+.planSet {
     display: flex;
 
 }
-.planItem1{
+
+.planItem1 {
     padding: 50px 0px 100px 350px;
 }
-.planItem2{
+
+.planItem2 {
     padding: 50px 10px 100px 80px;
 }
-.planItem3{
-    padding: 50px 0px 100px 80px;
-}
-.planItem4{
+
+.planItem3 {
     padding: 50px 0px 100px 80px;
 }
 
-.callNow{
-     
+.planItem4 {
+    padding: 50px 0px 100px 80px;
+}
+
+.callNow {
+
     background-image: url('../watch.png');
     background-repeat: no-repeat;
     background-position: top;
-    
+
 
 }
-.des{
+
+.des {
     color: rgb(8, 8, 8);
     font-size: 40px;
     font-weight: 700;
     text-align: left;
     width: 400px;
-    padding: 90px 0px 0 250px ;
+    padding: 90px 0px 0 250px;
 
 
 }
-.call{
+
+.call {
     font-size: large;
     border: 0;
     border-radius: 10px;
     color: rgb(3, 3, 3);
     background-color: darkgreen;
     padding: 10px 20px;
-    margin: 10px 0px 70px 248px ;
-    
+    margin: 10px 0px 70px 248px;
+}
 
+/* Body part ends here and footer starts from here */
 
+.foot {
+    background-color: black;
+    margin-top: 100px;
+}
+
+.footHeader {
+    color: white;
+    font-weight: 700;
+    padding: 0 0 0 100px;
+
+}
+
+.footdescription {
+    color: white;
+    width: 400px;
+    padding: 0 0 0 100px;
+
+}
+
+.footp2 {
+    color: white;
+    padding: 0 0 0 100px;
+}
+
+.footp3 {
+    color: white;
+    padding: 0 0 0 100px;
+
+}
+
+.images {
+    padding: 0 0 0 100px;
+
+}
+
+.subscribe {
+    color: white;
+    text-align: right;
+    padding: 0 120px 0 0;
+}
+
+.emailIn {
+    border-color: white;
+    border-radius: 9px;
+    margin: 0px 50px 0px 1150px;
+    background: black;
+    color: white;
+    padding: 10px;
+}
+
+.subs {
+    background-color: bisque;
+    color: orangered;
+    border: 0px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 0px 30px 0px 1152px;
 }
